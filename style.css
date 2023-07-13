@@ -1,0 +1,87 @@
+p {
+    margin: 0;
+  }
+  
+  body {
+    background-color: #63cdda;
+  }
+  
+  .survey {
+    width: 75%;
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .description {
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  @media (min-width: 600px) {
+    .row {
+      white-space: nowrap;
+    }
+  }
+  
+  .section {
+    width: 100%;
+    display: inline-block;
+    white-space: normal;
+    box-sizing: border-box;
+    padding: 5px 10px;
+  }
+  
+  @media (min-width: 600px) {
+    .section {
+      width: 50%;
+    }
+  }
+  
+  .section-left {
+    text-align: left;
+  }
+  
+  @media (min-width: 600px) {
+    .section-left {
+      text-align: right;
+    }
+  }
+  
+  .section-right {
+    text-align: left;
+  }
+  
+  .form-text-input {
+    width: 85%;
+    box-sizing: border-box;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #c3cad0;
+  }
+  
+  @media (min-width: 950px) {
+    .form-text-input {
+      width: 280px;
+    }
+  }
+  
+  .buttonSubmit {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .buttonSubmit:hover {
+    cursor: pointer;
+  }
+  
